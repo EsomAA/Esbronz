@@ -1,0 +1,132 @@
+
+
+    
+
+    #school {
+        font-family: Arial;
+        font-size:16px;
+        font-style: italic;
+        font-weight: bold;
+        text-align:center;
+        text-decoration:underline;
+        text-indent:50px;
+        text-transform:uppercase;
+        line-height: 50px;
+        color:white;
+        background: #000000
+        }
+
+.center {
+    font-family: Arial;
+    font-size:16px;
+    font-style: italic;
+    font-weight: bold;
+    text-align:left;
+    text-decoration:thick;
+    text-indent:50px;
+    text-transform:lowercase and uppercase;
+    line-height: 50px;
+    color:#000000;
+    background: #0000FF;
+    margin: 25px, 50px, 75px;
+    padding: 25px, 30px, 50px, 80px;
+    }
+
+img {
+    float : right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+    
+div.static {
+    position: static;
+    border: 3px solid #ff0000;
+    }
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 5px solid #ff0000;
+    }
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    border: 3px solid #ff0000;
+    }
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #ff0000;
+    }
+p.one {
+    border-style: solid;
+    border-color: #ff0000;
+    }
+      
+p.two {
+    border-style: solid;
+    border-color: #73AD21;
+    }
+      
+p.three {
+    border-style: dotted;
+    border-color: #0000FF;
+    }
+
+    
+    
+
+    
+ol.a{
+    list-style-type: circle;
+    list-style-position: outside;
+    }
+    
+ol.b {
+    list-style-type: square;
+    list-style-position: outside;
+    }
+    
+ol.c {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    }
+    
+ol.d {
+    list-style-type: upper-alpha;
+    list-style-position: outside;
+    }
+ol.e {
+    list-style-type: circle;
+    list-style-position: outside;
+    }
+    
+ol.f {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+
+body {
+    background-color: white;
+
+}
+a:link, a:visited {
+    background-color: #0000FF;
+    color: white;
+    padding: 14px 25px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+ /*<a href = "https://www.geeksforgeeks.org">GeeksforGeeks</a>
